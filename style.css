@@ -17,3 +17,11 @@ nav a:hover { color: #ffffff; }
 h1 { max-width: 680px; margin: 14px 0; font-size: clamp(2.5rem, 7vw, 4.6rem); line-height: 1.04; }
 main p:not(.eyebrow) { max-width: 620px; color: #b8bfd1; font-size: 1.1rem; line-height: 1.7; }
 footer { padding: 22px 8vw; color: #8790a5; border-top: 1px solid #2b3040; font-size: .9rem; }
+.library { width: min(1040px, 84vw); margin: 0 auto 80px; }
+h2 { margin: 10px 0 26px; font-size: 2rem; }
+.game-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.game-card { min-height: 190px; padding: 24px; border: 1px solid #31384b; border-radius: 16px; background: #171b27; }
+.game-card h3 { margin: 22px 0 8px; font-size: 1.25rem; }
+.game-card p { color: #b8bfd1; line-height: 1.55; }
+.game-type { color: #b3bcff; font-size: .8rem; }
+.button { display: inline-block; margin-top: 12px; padding: 12px 18px; border-radius: 8px; background: #7f8cff; color: #10131c; font-weight: 700; text-decoration: none; }

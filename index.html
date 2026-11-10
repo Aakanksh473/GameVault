@@ -10,14 +10,26 @@
   <header class="site-header">
     <a class="brand" href="index.html">GameVault</a>
     <nav aria-label="Main navigation">
-      <a href="index.html">Home</a>
+      <a href="index.html" aria-current="page">Home</a>
       <a href="about.html">About</a>
     </nav>
   </header>
-  <main class="hero">
-    <p class="eyebrow">A HOME FOR YOUR COLLECTION</p>
-    <h1>Welcome to GameVault</h1>
-    <p>Keep your favorite games together and make it easier to choose what to play next.</p>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">A HOME FOR YOUR COLLECTION</p>
+      <h1>All your games, in one vault.</h1>
+      <p>Keep your favorite games together and make it easier to choose what to play next.</p>
+      <a class="button" href="#library">Browse featured games</a>
+    </section>
+    <section class="library" id="library" aria-labelledby="library-title">
+      <p class="eyebrow">YOUR NEXT ADVENTURE</p>
+      <h2 id="library-title">Featured games</h2>
+      <div class="game-grid">
+        <article class="game-card"><span class="game-type">Adventure</span><h3>Starlight Trail</h3><p>Explore a quiet world beyond the horizon.</p></article>
+        <article class="game-card"><span class="game-type">Strategy</span><h3>Iron Harbor</h3><p>Build a thriving port, one turn at a time.</p></article>
+        <article class="game-card"><span class="game-type">Puzzle</span><h3>Glass Garden</h3><p>Restore color to a garden of shifting paths.</p></article>
+      </div>
+    </section>
   </main>
   <footer>GameVault - a simple game library concept</footer>
 </body>
