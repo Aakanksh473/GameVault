@@ -25,3 +25,5 @@ h2 { margin: 10px 0 26px; font-size: 2rem; }
 .game-card p { color: #b8bfd1; line-height: 1.55; }
 .game-type { color: #b3bcff; font-size: .8rem; }
 .button { display: inline-block; margin-top: 12px; padding: 12px 18px; border-radius: 8px; background: #7f8cff; color: #10131c; font-weight: 700; text-decoration: none; }
+.feature-note { margin-top: 38px; padding: 24px; border: 1px solid #31384b; border-radius: 16px; background: #171b27; }
+.feature-note h2 { margin-top: 0; font-size: 1.4rem; }
